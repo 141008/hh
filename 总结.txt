@@ -1,0 +1,7 @@
+1、所以查询语句并不是从SELECT开始执行的，而是按照下面的顺序执行：FROM子句->WHERE子句->
+GROUP BY子句->HAVING子句->SELECT子句->ORDER BY子句->LIMIT子句 
+每个子句执行后都会产生一个虚拟中间表，供接下来的子句使用，如果不存在某个子句，就跳过
+
+2.pycharm 中的资源库链接、
+https://mirrors.aliyun.com/pypi/simple/
+https://pypi.python.org/simple
